@@ -1,0 +1,167 @@
+/* font-family: 'Comfortaa', cursive; */
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #cad2c5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/* Nav */
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: #bc4749;
+}
+
+.nav-sections{
+    display: flex;
+    list-style: none;
+}
+
+.nav-sections a{
+    display: block;
+    font-size: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+/* Fin Nav */
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/* Sobre Mi */
+.welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome-section h1{
+    font-size: 5rem;
+}
+
+.welcome-section p{
+    font-size: 2rem;
+    font-style: italic;
+}
+/* Fin Sobre Mi */
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/* Proyectos */
+.projects{
+    text-align: center;
+    padding: 5rem 10rem;
+}
+
+.projects h2{
+    border-bottom: 0.2rem solid #4a5759;
+    max-width: 580px;
+    margin: 0 auto 6rem auto;  
+    font-size: 4rem;
+}
+
+
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 6rem;
+    margin-bottom: 10rem;
+}
+
+
+.project{
+    margin: 0 auto;
+    width: 450px;
+    height: 450px;
+    border: 1px solid #4a5759;
+}
+
+.project img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #4a5759;
+}
+
+.boton-mas{
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    background-color: #4a5759;
+    color: white;
+}
+/* Fin Proyectos */
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/* Contacto */
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.contact-info h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.contact-info p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contact-links a{
+    padding: 1.5rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+}
+/* Fin Contacto */
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem;
+    font-size: 2rem;
+    border-top: 2px solid red;
+}
+/* Fin Footer */
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+/* Responsive Design */
+
+/* Fin Responsive Design */
